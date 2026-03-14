@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <!-- Background -->
+  <rect width="800" height="200" fill="#F8FAFC"/>
+
+  <!-- Logo mark, scaled and positioned -->
+  <g transform="translate(60, 30) scale(2.1)">
+    <!-- Layer 1: History -->
+    <rect x="8" y="8" width="48" height="7" rx="3" ry="3" fill="#94A3B8"/>
+    <!-- Layer 2: Memory -->
+    <rect x="13" y="18" width="38" height="7" rx="3" ry="3" fill="#64748B"/>
+    <!-- Layer 3: Scratchpad -->
+    <rect x="18" y="28" width="28" height="7" rx="3" ry="3" fill="#475569"/>
+    <!-- Converging lines -->
+    <line x1="22" y1="35" x2="29" y2="42" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="42" y1="35" x2="35" y2="42" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <!-- Attention diamond -->
+    <rect x="24.5" y="38.5" width="15" height="15" rx="2.5" ry="2.5" fill="#3B82F6" transform="rotate(45 32 46)"/>
+    <!-- Output line -->
+    <line x1="32" y1="57" x2="32" y2="62" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Project name -->
+  <text x="225" y="85" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="700" fill="#0F172A">AFS Local</text>
+
+  <!-- Tagline -->
+  <text x="225" y="118" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#64748B">Context Engineering for LLMs</text>
+
+  <!-- Subtle descriptor -->
+  <text x="225" y="148" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#94A3B8">Local memory, structured retrieval, token-aware context pipeline</text>
+
+  <!-- Bottom border -->
+  <line x1="0" y1="199" x2="800" y2="199" stroke="#E2E8F0" stroke-width="1"/>
+</svg>

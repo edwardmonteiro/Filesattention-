@@ -1,4 +1,10 @@
-# AFS Local — Context Engineering for LLMs
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="AFS Local — Context Engineering for LLMs" src="assets/banner-light.svg" width="800">
+</picture>
+
+---
 
 ## The Problem
 
